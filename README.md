@@ -18,7 +18,10 @@ This project provides an interactive platform for developers to experiment with 
 - **Save and Load Code:** Save your progress using localStorage and reload it anytime.  
 - **Auto Refresh Toggle:** Choose between manual or auto-previewing changes.  
 - **Mobile Responsive:** Optimized for all screen sizes, ensuring a seamless experience on desktops and mobile devices.  
-- **Error Handling:** Display JavaScript errors directly in the preview window for debugging.  
+- **Error Handling:** Display JavaScript errors directly in the preview window for debugging.
+
+## Demo 
+https://github.com/user-attachments/assets/0d498887-be8b-45fb-91fa-ceaec86f8e45
 
 ## Screenshots 🖼️
 
