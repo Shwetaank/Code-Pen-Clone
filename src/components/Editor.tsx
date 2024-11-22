@@ -74,7 +74,7 @@ const CodePenClone = () => {
         <div className="container mx-auto px-6 flex justify-between items-center">
           <h1 className="text-2xl font-bold flex items-center gap-2">
             <AiFillCode className="text-3xl" />
-            CodePen Clone
+            CodeCraft
           </h1>
           <div className="flex gap-4">
             <button
@@ -123,7 +123,9 @@ const CodePenClone = () => {
         {/* Preview Section */}
         <div className="lg:w-1/2 bg-white p-6">
           <div className="flex justify-between items-center mb-4">
-            <h2 className="text-xl font-semibold text-gray-700">Live Preview</h2>
+            <h2 className="text-xl font-semibold text-gray-700">
+              Live Preview
+            </h2>
             <div className="flex items-center gap-4">
               <label className="flex items-center gap-2 text-gray-600 font-medium">
                 <input
