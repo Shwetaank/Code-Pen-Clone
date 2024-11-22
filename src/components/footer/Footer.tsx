@@ -13,7 +13,7 @@ type SocialLink = {
   name: string;
   icon: React.ReactNode;
   link: string;
-  hoverColor: string; // New property for dynamic hover colors
+  hoverColor: string;
 };
 
 const socials: SocialLink[] = [
@@ -22,52 +22,51 @@ const socials: SocialLink[] = [
     name: "LinkedIn",
     icon: <FaLinkedin />,
     link: "https://www.linkedin.com/in/shwetank-morey-a35484257",
-    hoverColor: "hover:text-blue-600", // LinkedIn Blue
+    hoverColor: "hover:text-blue-600",
   },
   {
     id: 2,
     name: "YouTube",
     icon: <FaYoutube />,
     link: "https://www.youtube.com/@Sin_Greed",
-    hoverColor: "hover:text-red-500", // YouTube Red
+    hoverColor: "hover:text-red-500",
   },
   {
     id: 3,
     name: "LeetCode",
     icon: <SiLeetcode />,
     link: "https://leetcode.com/u/spmorey87/",
-    hoverColor: "hover:text-orange-500", // LeetCode Orange
+    hoverColor: "hover:text-orange-500",
   },
   {
     id: 4,
     name: "Instagram",
     icon: <FaInstagram />,
     link: "https://www.instagram.com/shwetaank_/",
-    hoverColor: "hover:text-pink-500", // Instagram Pink
+    hoverColor: "hover:text-pink-500",
   },
   {
     id: 5,
     name: "Twitter",
     icon: <FaTwitter />,
     link: "https://x.com/Sin_Greed___",
-    hoverColor: "hover:text-blue-400", // Twitter Blue
+    hoverColor: "hover:text-blue-400",
   },
   {
     id: 6,
     name: "My Portfolio",
     icon: <FaSuitcase />,
     link: "https://shwet-tech.com/",
-    hoverColor: "hover:text-green-500", // Portfolio Green
+    hoverColor: "hover:text-green-500",
   },
 ];
 
 const Footer: React.FC = () => {
-  const currentYear = new Date().getFullYear(); // Dynamic year
+  const currentYear = new Date().getFullYear();
 
   return (
     <footer className="bg-gradient-to-r from-gray-800 via-gray-900 to-black text-white py-10 shadow-lg">
       <div className="container mx-auto px-6 lg:px-16 flex flex-col items-center space-y-8">
-        {/* Social Links Section */}
         <div className="grid grid-cols-3 gap-y-6 gap-x-8 md:grid-cols-6">
           {socials.map((social) => (
             <a
@@ -82,11 +81,7 @@ const Footer: React.FC = () => {
             </a>
           ))}
         </div>
-
-        {/* Divider Line */}
         <div className="w-full border-t border-gray-700"></div>
-
-        {/* Footer Text */}
         <p className="text-center text-sm leading-relaxed">
           © {currentYear} All Rights Reserved. Made with ❤️ by{" "}
           <span className="font-bold text-blue-400">Sin_Greed</span>
